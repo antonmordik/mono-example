@@ -1,0 +1,14 @@
+{
+  "name": "@mono/base",
+  "version": "0.0.1",
+  "description": "base components for app infrastructure",
+  "main": "dist/lib/src/index.js",
+  "typings": "dist/typings/src/index.d.ts",
+  "scripts": {
+    "test": "tsc --help"
+  },
+  "author": "Anton Mordik<https://github.com/antonmordik>",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

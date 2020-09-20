@@ -1,0 +1,27 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "description": "monorepo example for medium.com",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run clear:modules && node ./scripts/link-packages.js",
+    "clear:modules": "rimraf packages/**/node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonmordik/mono-example.git"
+  },
+  "keywords": [],
+  "author": "Anton Mordik<https://github.com/antonmordik>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonmordik/mono-example/issues"
+  },
+  "homepage": "https://github.com/antonmordik/mono-example#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "typescript": "^4.0.3"
+  }
+}
