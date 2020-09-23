@@ -1,6 +1,8 @@
 {
   "target": "./node_modules",
   "paths": [
-    "./packages/*"
+    "./packages/apps/*",
+    "./packages/base",
+    "./packages/core"
   ]
 }
